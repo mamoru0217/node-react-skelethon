@@ -1,3 +1,16 @@
-# Github Issue Viewer - ORETATCHI NO ISSUE
+# node-react-skelthon
 
-Accelerate team communication!
+- node.js
+- express
+- gulp
+- webpack
+- react
+- coffee
+- sass
+
+## usage
+
+```
+npm install
+gulp
+```
