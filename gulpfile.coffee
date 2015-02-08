@@ -14,11 +14,10 @@ gulp.task 'nodemon', (cb) ->
     .on 'start', ->
       if !called
         cb()
-      caled = true
+      called = true
     .on 'restart', ->
       setTimeout (->
-        browserSync.reload()
-          stream: false
+        browserSync.reload(stream: false)
       ), 500
 
 gulp.task 'browserSync', ['nodemon'], ->
